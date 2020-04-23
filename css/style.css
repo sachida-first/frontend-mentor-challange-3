@@ -1,0 +1,180 @@
+p {
+  line-height: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(208, 11%, 55%);
+  padding: 10px 30px 10px 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* top container */
+.header-section {
+  background-image: url("bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+  padding: 5% 7% 5%;
+  margin-bottom: 10%;
+}
+
+/*top button */
+.top-btn {
+  position: absolute;
+  right: 20px;
+  border: 0 solid;
+  background-color: #fff;
+  border-radius: 60px;
+  padding: 7px 40px;
+  cursor: pointer;
+}
+
+.top-btn:hover {
+  background-color: #dbdbdb;
+}
+
+/* heading */
+.containers {
+  padding-top: 5%;
+  text-align: left;
+}
+
+.top-mockups-img {
+  width: 100%;
+}
+
+.big-heading {
+  padding: 10% 3% 4% 0;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.download-btn {
+  border: 0 solid;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  border-radius: 60px;
+  padding: 10px 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #af8baf;
+}
+
+/* Grow together and middle section */
+.second-sec, .middle-sec {
+  border-radius: 10px;
+  margin: 5% 5% 3%;
+  padding: 5% 3%;
+  background-color: hsl(193, 100%, 96%);
+}
+
+.img {
+  text-align: center;
+}
+
+.all-img {
+  width: 50%;
+  text-align: center;
+}
+
+.card-heading {
+  margin: 10% 3% 5%;
+}
+
+/* middle section */
+.middle-img {
+  width: 50%;
+  text-align: center;
+}
+
+/* download section */
+.small-card {
+  top: 40px;
+  position: relative;
+  padding-top: 50px;
+  border-radius: 10px;
+  margin: 10% 25% 0;
+  background-color: hsl(193, 100%, 96%);
+  text-align: center;
+  z-index: 1;
+}
+
+/* footer section */
+.footer {
+  text-align: center;
+  position: relative;
+  padding-top: 8%;
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(208, 11%, 55%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 20px;
+  text-align: left;
+}
+
+.icon {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.about {
+  margin-top: 4.5rem;
+}
+
+/* top responsive */
+@media (max-width:1440px) {
+  .containers {
+    text-align: center;
+  }
+
+  .download-btn {
+    margin-bottom: 15%;
+  }
+}
+
+@media (max-width:1440px) {
+  .second-sec {
+    /*  second section */
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .all-img {
+    order: 1;
+  }
+
+  .middle-sec {
+    /*  middle section */
+    text-align: center;
+  }
+
+  .small-card {
+    /*   card that this small and contain download button */
+    margin: 12% 12% 0;
+  }
+
+  div .last-down-head {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .about{
+    margin-top: 0;
+  }
+
+  .last {
+    /*copyright section */
+    flex-direction: column-reverse;
+  }
+}
